@@ -1,0 +1,105 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  text-decoration: none;
+  font: inherit;
+}
+
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: "Kanit", sans-serif;
+  font-size: 0.9em;
+}
+
+p {
+  font-family: "Kanit", sans-serif;
+  font-size: 0.8em;
+}
+
+.profiletext {
+  margin-top: 20px;
+  color: #767f85;
+}
+
+ul li::before {
+  color: rgb(84, 192, 255);
+}
+
+li {
+  color: #767f85;
+}
+
+.border {
+  width: 60px;
+  margin: 0 0 5px 0;
+  border-bottom: #cdd7e1 solid 5px;
+}
+
+.orange {
+  color: #fab13b;
+}
+
+body {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #eef3e3;
+  background: radial-gradient(circle, rgb(245, 235, 190) 34%, rgb(238, 243, 227) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .box {
+  width: 80%;
+  height: 700px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  top: 50px;
+  position: fixed;
+  display: flex;
+  overflow: auto;
+}
+body .box #leftSection {
+  position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+.radial {
+  size: 20px;
+  background: radial-gradient(circle, rgb(245, 235, 190) 34%, rgb(238, 243, 227) 100%);
+  position: relative;
+  left: 300px;
+}
+
+img {
+  width: 600px;
+  height: 700px;
+}
+
+.leftText {
+  position: absolute;
+  left: 20px;
+  top: 350px;
+}
+
+.rightsection {
+  margin-left: 600px;
+  height: 900px;
+  padding: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
