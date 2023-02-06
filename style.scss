@@ -14,26 +14,37 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
     text-decoration: none;
     font: inherit;
 }
-h1 {
+.font-basic {
     font-family: 'Kanit', sans-serif;
+    color: $black
+}
+h1 {
+    @extend .font-basic;
     font-size: 2em;
 }
 h2 {
-    font-family: 'Kanit', sans-serif;
+    @extend .font-basic;
     font-size: 1.5em;
     margin-top: 20px;
 }
 h3 {
-    font-family: 'Kanit', sans-serif;
+    @extend .font-basic;
     font-size: .9em;
 }
 p {
-    font-family: 'Kanit', sans-serif;
+    @extend .font-basic;
     font-size: .8em;
 }
+
 .profiletext {
     margin-top: 20px;
+    margin-bottom: 20px;
     color: $gray;
+    font-size: 1em;
+}
+.bluetext{
+    margin-top: 10px;
+    color: $blue;
 }
 ul li::before {
     color: $licircle;
@@ -94,13 +105,17 @@ body {
   }
   .rightsection {
     margin-left: 600px;
-    height: 900px;
+    height: 1000px;
     padding: 50px 50px;
     // position: relative  ;
     display: flex;
     flex-direction: column;
     text-align: left;
     justify-content: space-around;
+
+      
   }
   
-  
+  ::-webkit-scrollbar {
+    width: 0px;
+  }

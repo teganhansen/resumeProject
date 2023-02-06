@@ -7,30 +7,38 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
   font: inherit;
 }
 
-h1 {
+.font-basic, p, h3, h2, h1 {
   font-family: "Kanit", sans-serif;
+  color: #000;
+}
+
+h1 {
   font-size: 2em;
 }
 
 h2 {
-  font-family: "Kanit", sans-serif;
   font-size: 1.5em;
   margin-top: 20px;
 }
 
 h3 {
-  font-family: "Kanit", sans-serif;
   font-size: 0.9em;
 }
 
 p {
-  font-family: "Kanit", sans-serif;
   font-size: 0.8em;
 }
 
 .profiletext {
   margin-top: 20px;
+  margin-bottom: 20px;
   color: #767f85;
+  font-size: 1em;
+}
+
+.bluetext {
+  margin-top: 10px;
+  color: rgb(0, 112, 217);
 }
 
 ul li::before {
@@ -96,10 +104,14 @@ img {
 
 .rightsection {
   margin-left: 600px;
-  height: 900px;
+  height: 1000px;
   padding: 50px 50px;
   display: flex;
   flex-direction: column;
   text-align: left;
   justify-content: space-around;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }/*# sourceMappingURL=style.css.map */
